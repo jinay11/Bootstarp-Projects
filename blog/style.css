@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: #f1f1f1;
+    height: auto;
+}
+
+.tag{
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+.font{
+    font-size: 20px;
+}
+
+.opacity{
+    opacity: 0.7;
+}
+
+.bg-color{
+    background-color: #f1f1f1;
+    
+}
+.box{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+footer{
+    background-color: #616161;
+    color: #fff;
+}
+
+@media screen and (max-width:640px) {
+    .lead{
+        font-size: 15px;
+    }
+}
